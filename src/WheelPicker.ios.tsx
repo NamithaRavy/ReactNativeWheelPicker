@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View } from "react-native";
-import { Picker } from "@react-native-community/picker";
+//import { Picker } from "@react-native-community/picker";
 
 interface Props {
   data: Array<string>;
@@ -15,7 +15,7 @@ const WheelPicker: React.FC<Props> = props => {
   if (!data || data.length === 0) return null;
   return (
     <View pointerEvents={disabled ? "none" : "auto"}>
-      <Picker
+      {/* <Picker
         {...props}
         selectedValue={data[selectedItem]}
         onValueChange={(value, index): void => {
@@ -26,7 +26,7 @@ const WheelPicker: React.FC<Props> = props => {
         {data.map((i, index) => (
           <Picker.Item key={index} label={i} value={i} />
         ))}
-      </Picker>
+      </Picker> */}
     </View>
   );
 };
