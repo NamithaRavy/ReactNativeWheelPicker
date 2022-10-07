@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/kalontech/ReactNativeWheelPicker/issues"
   },
-  "homepage": "https://github.com/kalontech/ReactNativeWheelPicker",
-  "dependencies": {
-    "moment": "2.24.0"
-  }
+  "homepage": "https://github.com/kalontech/ReactNativeWheelPicker"
 }
