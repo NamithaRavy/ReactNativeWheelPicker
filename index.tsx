@@ -1,4 +1,4 @@
-import WheelPicker from './src/WheelPicker'
+import WheelPicker from './src/WheelPicker.android'
 //import TimePicker from './src/TimePicker'
 //import DatePicker from './src/DatePicker'
 
